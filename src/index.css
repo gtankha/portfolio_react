@@ -1,13 +1,476 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* Set variables that will be used frequently */
+:root {
+  --navtext-color: rgb(145, 214, 216);
+  --text-color: rgb(92, 92, 92);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Set format for header */
+
+/* Set format for navigation bar*/
+.header nav {
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15 px;
+  margin-right: 80px;
 }
+
+.header nav ul {
+  list-style-type: none;
+  display: initial;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 35px;
+}
+/* Set format for main body*/
+
+a {
+  color: var(--navtext-blue);
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  width: 120px;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+
+/* set properties for image and title below the header */
+
+.subheader{
+  height: 320px;
+  /* background-image: url("../images/subheader.jpg"); */
+}
+.subheader h2{
+  display: block;
+  background-color: rgb(136, 170, 175);
+  color: var(--text-color);
+  width: fit-content;
+  position: relative;
+  left: 80%;
+  top: 80%;
+}
+.subheader h2 span{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 5px;
+}
+
+/* set format for main section including aboutme, work and contactme */
+.main-section{
+  background-color: white;
+  overflow: hidden;
+
+
+}
+.logos span {
+  color: #B1EDE8;
+ font-family: fantasy;
+}
+.aboutme {
+  justify-content: space-evenly;
+  font-family: fantasy;
+  background-color: #313D5A;
+  padding-left: 0.5em;
+  color: white;
+
+}
+
+.aboutme h1 {
+font-size:  2em;
+
+}
+.logos{
+display: flex;
+justify-content: center;
+width: 80%;
+}
+
+.logos img {
+
+  padding-left: 0.05em;
+
+}
+
+.aboutme_desc {
+
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.worksection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contactme {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* set properties for parent of profile image */
+.profile{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  flex: 4;
+ padding: 2em;
+}
+
+/* set properties for main section headers */
+.main-section h2{
+  flex: 1;
+  text-align: right;
+  border-right: solid var(--text-color);
+  font-size: 3em;
+  padding: 0.5em;
+  margin-left: 0.8em;
+  display: inline;
+}
+
+/* set properties for profile image */
+.profileimg {
+  flex: 1;
+  width: fit-content;
+  display: inline-flex;
+  padding: 2em;
+  
+}
+#gtimage { 
+  width: 100%;
+  }
+
+/* set properties for about me */
+.aboutme_desc p{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  line-height: 1.25em;
+  font-family: serif,"Times New Roman", Times;
+
+}
+
+/* define grif and flex properties in the work section */
+
+.websiteimageswrapper{
+  flex: 4;
+  padding: 2em; 
+
+}
+.websitegrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+ 
+  grid-gap: 2em;
+  align-items: stretch;
+  justify-content: center;
+ 
+}
+.website1{
+
+
+  position: relative;
+  
+}
+  
+.website2{
+
+
+  position: relative;
+  
+  
+}
+.website3{
+
+
+  position: relative;
+
+}
+
+.website4{
+
+
+  position: relative;
+ 
+}
+.website5{
+
+
+  position: relative;
+
+}
+
+.website1 a, .website2 a, .website3 a, .website4 a, .website5 a{
+  border-bottom: none;
+}
+.websiteimage{
+  /* define the image attributes of website icons*/
+  opacity: 0.5;   
+  display: inline-block;
+  object-fit: cover;
+}
+
+/* define website icon properties */
+#website1img {
+  width: 100%;
+  border: solid   var(--navtext-color);
+}
+#website2img, #website3img, #website4img, #website5img {
+  width: 100%;
+  border: solid   var(--navtext-color);
+}
+
+
+
+/* properties when hovering */
+
+.websiteimage:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.webdescription:hover {
+  font-weight: 800;
+  font-style: bold;
+}
+.webimage:hover {
+  opacity: 0.5;
+}
+
+
+/* format for website icon description */
+
+.description{
+  display: block;
+  background-color: rgb(136, 170, 175);
+  color: var(--text-color);
+  width: fit-content;
+  position: absolute;
+  opacity: 1;
+  top: 40%;
+  left: 0%;
+}
+.description h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 9px;
+  line-height: 0.5em;
+  padding: 0px 3px 0px 3px;
+}
+.description h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 0.5em;
+  padding: 0px 3px 0px 3px;
+}
+
+/* white body backgroun */
+body {
+  background-color: #d9dcd6;
+}
+
+/* contact info section format */
+.contactinfo{
+  flex: 4;
+  padding: 2em;
+  display: inline-flex;
+}
+.contactinfo .tel, .contactinfo .email, .contactinfo .linkedin, .contactinfo .twitter {
+  flex: 1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  width: fit-content; 
+  align-items: center;
+  color: var(--navtext-color);
+  text-decoration: none;
+  font-size: 16px; 
+}
+.contactinfo span, .contactinfo a {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--navtext-color);
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+.header {
+
+  justify-content: center;
+}
+
+.subheader h2{
+  left: 70%;
+}
+
+.aboutme, .worksection, .contactme, .profile{
+width: 100%;
+}
+.main-section h2{
+font-size: 2em;
+}
+.aboutme p{
+  font-size: 13px;
+}
+
+#website1img, #website2img, #website3img, #website4img, #website5img {
+width: 90%;
+}
+
+footer p{
+  font-size: 10px;
+}
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+.header h1 span{
+  margin-left: 10px;
+  top: 2px;
+  font-size: 20px;
+}
+.header nav{
+  margin-right: 0px;
+  margin-left: 14em;
+  float: none;
+
+}
+.header nav ul {
+  font-size: 0.7em;
+}
+.header nav ul li {
+  margin-left: 15px;
+}
+.aboutme, .worksection, .contactme, .profile{
+  width: 100%;
+  }
+
+.subheader h2 {
+  left: 60%;
+}
+
+.main-section h2{
+  font-size: 1.1em;
+  margin-left: 0px;
+}
+.profile{
+  padding-left: 0.1em;
+}
+.profileimg{
+  padding-left: .2em;
+}
+#gtimage {
+  width: 130%;
+}
+#website1img, #website2img, #website3img, #website4img, #website5img {
+  width: 100%
+}
+.description {
+  top: 55%
+}
+.description h3 {
+  font-size: 8px;
+  line-height: 0.1em;
+
+}
+.description h4 {
+  font-size: 7px;
+  line-height: 0.1em;
+}
+.contactinfo .tel, .contactinfo .email, .contactinfo .linkedin, .contactinfo .twitter {
+  font-size: 0.7em;
+}
+footer p {
+  font-size: 10px;
+}
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+
+.header nav{
+margin-left: 4em;
+width: 50%;
+  }
+
+.header nav ul{
+  font-size: 0.6em;
+  display: flex;
+}
+.header h1 span{
+  font-size: 0.6em;
+}
+
+a {
+  border-bottom: 1px solid var(--navtext-color);
+  padding-bottom: 0.1rem;
+  color: var(--navtext-color);
+
+}
+.subheader h2 {
+  left: 50%;
+}
+.subheader h2 span{
+  font-size: 0.8em;
+}
+.aboutme, .worksection, .contactme {
+  flex-direction: column;
+}
+.main-section h2, .worksection h2{
+  width: 50%;
+  border-right: none;
+}
+
+.contactme h2{
+  width: 58%;
+  border-right: none;
+}
+
+.main-section h2 span, .worksection h2 span, .contactme h2 span{
+  border-bottom: 2px solid var(--navtext-color);
+}
+.profile{
+  padding: 0px;
+
+}
+.aboutme p{
+  flex: 2;
+  padding-left: 1em;
+  border-left: solid var(--navtext-color);
+}
+.description h3{
+  font-size: 6px;
+
+}
+.description h4{
+  font-size: 5px;
+}
+.contactinfo {
+  padding:0;
+  padding-left: 2.5em;
+
+}
+.contactme h2{
+  padding-bottom: 0px;
+}
+.contactinfo .tel, .contactinfo .email, .contactinfo .linkedin, .contactinfo .twitter {
+  font-size: 0.2em;
+  padding-right: 2em;
+}
+.contactinfo span, .contactinfo a{
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--navtext-color);
+}
+footer p{
+  font-size: 7px;
+}
+} 
