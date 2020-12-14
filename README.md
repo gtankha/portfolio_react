@@ -59,7 +59,8 @@
 
 In case of any questions, please reach out to the following contact email: gtankha@gmail.com
 
-Screenshot: https://user-images.githubusercontent.com/46304828/101235865-fccded80-3680-11eb-976a-f3e9bfa95be7.png
+Screenshot: https://user-images.githubusercontent.com/46304828/102055833-4c5a9a80-3da0-11eb-8ffc-df391081cd0a.png
+
 
 
 
