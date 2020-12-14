@@ -63,8 +63,8 @@ function Portfolio() {
         <section>
             <div className="container">
                 <div className="row justify-content-md-center">
-                    {currentWebsite.map((website,index) => (
-                        <div className="websiteimages w-50 col-md-4">
+                    {currentWebsite.map((website) => (
+                        <div className="websiteimages w-50 col-md-4 col-sm-6">
                             <MDBView hover zoom>
                                
                                 <img

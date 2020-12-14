@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Budget Tracker 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+  ## Table of Contents
 
-In the project directory, you can run:
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributing](#contributing)
+  6. [Tests](#tests)
+  7. [Questions](#questions)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a name="description"></a>
+  ## 1. Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  Application shows a portfolio of my older projects with links to the website and github pages. Also includes a contact  me form. It is powered by REACT but does not have a backend engine yet. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <a name="installation"></a> 
+  ## 2. Installation
 
-### `npm run build`
+ Application is deplyed on GitHub. Link is provided under questions section.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ You can  go ahead and clone or download the git repository provided in the link (please see under questions). A package.json file will be available . This will make it easy to manage and install the required packages for this program to work. . “npm install” command from the terminal will trigger the installation of all modules that are listed as dependencies in package.json.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <a name="usage"></a> 
+  ## 3. Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  The application has a front-end that can be used to view the pplication.. 
 
-### `npm run eject`
+  <a name="license"></a> 
+  ## 4. License
+   ![](https://img.shields.io/badge/License-ISC-blue.svg)
+  
+  [ISC](https://opensource.org/licenses/ISC)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  URL: https://opensource.org/licenses/ISC
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <a name="contributing"></a>
+  ## 5. Contributing
+    
+  Please feel free to contribute. However, please send a note to the email address below informing us of the contribution
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  <a name="tests"></a> 
+  ## 6. Test
+      
+  Validation is perfomed to ensure appropriate transaction information has been entered. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  <a name="questions"></a> 
+  ## 7. Questions
+  
+  GitHub Username: gtankha
 
-## Learn More
+  GitHub: https://github.com/gtankha/budget-tracker
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  Heroku Link: https://warm-stream-90592.herokuapp.com/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In case of any questions, please reach out to the following contact email: gtankha@gmail.com
 
-### Code Splitting
+Screenshot: https://user-images.githubusercontent.com/46304828/101235865-fccded80-3680-11eb-976a-f3e9bfa95be7.png
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -9,8 +9,8 @@ function Footer() {
 < section >
         <div className="logos">
 
-            <a style={{ width: "25%" }} href="https://www.linkedin.com/in/gautam-tankha-b248751/" target="_blank"> <img src={linkedinLogo} style={{ width: "25%" }} alt="logo" /></a>
-            <a style={{ width: "25%" }} href="https://github.com/gtankha" target="_blank"> <img src={githubLogo} style={{ width: "25%" }} alt="logo" /></a>
+            <a style={{ width: "20%" }} href="https://www.linkedin.com/in/gautam-tankha-b248751/" target="_blank"> <img src={linkedinLogo} style={{ width: "18%" }} alt="logo" /></a>
+            <a style={{ width: "20%" }} href="https://github.com/gtankha" target="_blank"> <img src={githubLogo} style={{ width: "18%" }} alt="logo" /></a>
         </div>
 
  </section >

@@ -14,7 +14,7 @@ function App() {
   const [sectionSelected, setSectionSelected] = useState("About Me");
 
   return (
-    <div>
+    <div className="overall">
       <Nav
         setSectionSelected={setSectionSelected}
         sectionSelected={sectionSelected}>

@@ -7,16 +7,34 @@
   
 }
 
-/* Set format for navigation bar*/
+
+/* Set format for navigation bar */
+html, body,.overall,.aboutme,main{
+min-width: 100%; 
+height: 100%;
+min-height: 100%;
+ 
+}
 
 
 
-header, footer{
+header{
   background-image: url("./assets/img/grey-abstract-texture-background-paper_1284-49799.jpg");
   height: 10%;
   columns:  black;
+  min-width: 100%;
+  max-width: 100%;
  
 }
+footer{
+  background-image: url("./assets/img/grey-abstract-texture-background-paper_1284-49799.jpg");
+  height: 5%;
+  columns:  black;
+  min-width: 100%;
+  max-width: 100%;
+ 
+}
+
 #about {
 padding-top: 15px;
 }
@@ -53,12 +71,13 @@ p {
 .logos span {
   color: #B1EDE8;
  font-family: fantasy;
+
 }
 .logos img:hover{
     opacity: 0.5;
 }
 
-.aboutme, .form {
+.aboutme, .form, .resume {
   
   justify-content: space-evenly;
   font-family: fantasy;
@@ -66,6 +85,18 @@ p {
   padding-left: 0.5em;
   color: white;
 
+}
+.aboutme{
+  padding-bottom: 33em;
+}
+.container{
+  padding-bottom: 42em;
+}
+.resume{
+  padding-bottom: 15em;
+}
+.form{
+  padding-bottom: 40em;
 }
 
 
@@ -75,8 +106,10 @@ font-size:  2em;
 }
 .logos{
 display: flex;
-justify-content: center;
+justify-content: left;
 width: 80%;
+vertical-align: center;
+align-items: left;
 }
 
 .logos img {
@@ -119,16 +152,34 @@ width: 80%;
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  /* Set format for navigation bar*/
+html, body,.overall,.aboutme,main{
+  min-width: 100%; 
+min-height: 100%;
+ 
+}
 
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  /* Set format for navigation bar*/
+html, body,.overall,.aboutme,main{
+  min-width: 100%; 
+min-height: 100%;
+ 
+}
 
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  /* Set format for navigation bar*/
+html, body,.overall,.aboutme,main{
+  min-width: 100%; 
+min-height: 100%;
+ 
+}
 
 }
 

@@ -12,11 +12,11 @@ function Nav(props) {
     return (
         <header>
 
-            <nav className="headerdata d-flex align-middle">
+            <nav className="headerdata d-flex w-auto">
                 <h2 className="font-weight-bold">
                 Gautam Tankha
                     </h2>
-                <ul className="d-flex">
+                <ul className="d-flex flex-wrap">
 
                     <ul className="mx-2 font-weight-bold">
                         <a href="#about" onClick={() => setSectionSelected("About Me")}>

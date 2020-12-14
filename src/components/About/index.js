@@ -14,7 +14,6 @@ function About() {
         Outside of my technical pursuits, I enjoy playing tennis, reading books and spending time with family.
       </p>
       </div>
-      
 
   </section>
 
