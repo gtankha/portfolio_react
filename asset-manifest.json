@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.153818c9.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.62d10523.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.62d10523.chunk.js.map",
+    "runtime-main.js": "/portfolio_react/static/js/runtime-main.e3c83d10.js",
+    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.e3c83d10.js.map",
+    "static/css/2.3f65f8a6.chunk.css": "/portfolio_react/static/css/2.3f65f8a6.chunk.css",
+    "static/js/2.ba8bb01b.chunk.js": "/portfolio_react/static/js/2.ba8bb01b.chunk.js",
+    "static/js/2.ba8bb01b.chunk.js.map": "/portfolio_react/static/js/2.ba8bb01b.chunk.js.map",
+    "static/js/3.ab121289.chunk.js": "/portfolio_react/static/js/3.ab121289.chunk.js",
+    "static/js/3.ab121289.chunk.js.map": "/portfolio_react/static/js/3.ab121289.chunk.js.map",
+    "index.html": "/portfolio_react/index.html",
+    "static/css/2.3f65f8a6.chunk.css.map": "/portfolio_react/static/css/2.3f65f8a6.chunk.css.map",
+    "static/css/main.153818c9.chunk.css.map": "/portfolio_react/static/css/main.153818c9.chunk.css.map",
+    "static/js/2.ba8bb01b.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.ba8bb01b.chunk.js.LICENSE.txt",
+    "static/media/Password_Generator.b5ddca73.png": "/portfolio_react/static/media/Password_Generator.b5ddca73.png",
+    "static/media/Pizza_Hunt.0bd43922.png": "/portfolio_react/static/media/Pizza_Hunt.0bd43922.png",
+    "static/media/Run_Website_Website.deb8e67e.png": "/portfolio_react/static/media/Run_Website_Website.deb8e67e.png",
+    "static/media/Zoo_Keeper.2b77a558.png": "/portfolio_react/static/media/Zoo_Keeper.2b77a558.png",
+    "static/media/mdb.css": "/portfolio_react/static/media/arrow_right.0897f985.svg",
+    "static/media/employerapp.3622d192.png": "/portfolio_react/static/media/employerapp.3622d192.png",
+    "static/media/all.min.css": "/portfolio_react/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/flights-animation.9f08bb51.gif": "/portfolio_react/static/media/flights-animation.9f08bb51.gif",
+    "static/media/index.css": "/portfolio_react/static/media/grey-abstract-texture-background-paper_1284-49799.425ef218.jpg",
+    "static/media/gtimage.81e7818f.jpg": "/portfolio_react/static/media/gtimage.81e7818f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3c83d10.js",
+    "static/css/2.3f65f8a6.chunk.css",
+    "static/js/2.ba8bb01b.chunk.js",
+    "static/css/main.153818c9.chunk.css",
+    "static/js/main.62d10523.chunk.js"
+  ]
+}
