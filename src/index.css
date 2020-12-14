@@ -87,16 +87,16 @@ p {
 
 }
 .aboutme{
-  padding-bottom: 33em;
-}
-.container{
-  padding-bottom: 42em;
-}
-.resume{
   padding-bottom: 15em;
 }
+.container{
+  padding-bottom: 13em;
+}
+.resume{
+  padding-bottom: 6em;
+}
 .form{
-  padding-bottom: 40em;
+  padding-bottom: 22em;
 }
 
 
