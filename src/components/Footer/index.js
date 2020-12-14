@@ -4,7 +4,7 @@ import githubLogo from "../../assets/img/git-hub_logo.png";
 
 
 function Footer() {
-
+// footer with the linked and github logos
     return (
 < section >
         <div className="logos">

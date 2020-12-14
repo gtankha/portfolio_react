@@ -2,6 +2,7 @@ import React from 'react';
 
 import selfImage from "../../assets/img/gtimage.jpg";
 
+//about page providing a descrtiption of myself including an image
 function About() {
   return (
     <section className="aboutme">

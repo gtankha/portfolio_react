@@ -1,5 +1,6 @@
 import React from 'react';
 
+// renders the resume
 
 function Resume() {
     return (

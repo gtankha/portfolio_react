@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 
 
 
+// passes the section selected as a prop to ensure a SPA 
 
 function App() {
   const [sectionSelected, setSectionSelected] = useState("About Me");

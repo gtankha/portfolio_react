@@ -3,12 +3,12 @@ import React from 'react';
 
 function Nav(props) {
 
-
+// props required to account for selection made at the nav
     const {
         setSectionSelected,
         sectionSelected, 
       } = props;
-
+// rendering nav component. There is also logic to update the selection based on section clicked or selected
     return (
         <header>
 

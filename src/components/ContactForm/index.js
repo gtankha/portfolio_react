@@ -2,12 +2,16 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
+
+// Contact form -- but does not incluced a backend. Form validates for errors and issues. 
+
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
+  // form submission... but we are only logging..not actually submitting
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
@@ -15,7 +19,7 @@ function ContactForm() {
       console.log('Form', formState);
     }
   };
-
+// error validation
   const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
@@ -33,6 +37,7 @@ function ContactForm() {
     }
   };
 
+  // render the form 
   return (
     <section>
         <div className="form">
