@@ -65,13 +65,13 @@ function Portfolio() {
                 <div className="row justify-content-md-center">
                     {currentWebsite.map((website,index) => (
                         <div className="websiteimages w-50 col-md-4">
-
-
                             <MDBView hover zoom>
+                               
                                 <img
                                     src={website.photo}
                                     alt="Zoo Keeper"
                                     className="img-thumbnail mx-1"
+                                    key={website.name}
                                 />
                                 <MDBMask overlay="blue-grey-strong align-middle">
                                     <div className="logos align-middle mt-5 ml-5">
@@ -80,6 +80,7 @@ function Portfolio() {
                                     </div>
 
                                 </MDBMask>
+                                
                             </MDBView>
 
 

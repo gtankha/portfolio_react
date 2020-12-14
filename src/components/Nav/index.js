@@ -1,36 +1,50 @@
 import React from 'react';
 
 
-function Nav() {
+function Nav(props) {
+
+
+    const {
+        setSectionSelected,
+        sectionSelected, 
+      } = props;
 
     return (
         <header>
 
-            <nav className="d-flex">
-                <h2 className="text-secondary font-weight-bold">
-                    Gautam Tankha
+            <nav className="headerdata d-flex align-middle">
+                <h2 className="font-weight-bold">
+                Gautam Tankha
                     </h2>
                 <ul className="d-flex">
 
-                    <ul className="mx-2 text-secondary">
-                        <a href="#about">
-                            About me
+                    <ul className="mx-2 font-weight-bold">
+                        <a href="#about" onClick={() => setSectionSelected("About Me")}>
+                            <span>About me</span>
                           </a>
-                    </ul>
-                    <ul className="mx-2 text-secondary">
 
+
+
+                    </ul>
+                    <ul className="mx-2 font-weight-bold">
+
+                    <a href="#portfolio" onClick={() => setSectionSelected("Portfolio")}>
                         <span> Portfolio</span>
+                        </a>
 
                     </ul>
-                    <ul className="mx-2 text-secondary">
+                    <ul className="mx-2 font-weight-bold">
 
+
+                    <a href="#contactform" onClick={() => setSectionSelected("ContactForm")}>
                         <span> Contact </span>
+                        </a>
 
                     </ul>
-                    <ul className="mx-2 text-secondary">
-
+                    <ul className="mx-2 font-weight-bold">
+                    <a href="#resume" onClick={() => setSectionSelected("Resume")}>
                         <span> Resume</span>
-
+                    </a>
                     </ul>
 
                 </ul>

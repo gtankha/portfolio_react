@@ -1,6 +1,5 @@
 import React from 'react';
-import linkedinLogo from "../../assets/img/linkedin_logo.png";
-import githubLogo from "../../assets/img/git-hub_logo.png";
+
 import selfImage from "../../assets/img/gtimage.jpg";
 
 function About() {
@@ -15,10 +14,7 @@ function About() {
         Outside of my technical pursuits, I enjoy playing tennis, reading books and spending time with family.
       </p>
       </div>
-      <div className= "logos">
-      <a href="https://www.linkedin.com/in/gautam-tankha-b248751/" target="_blank"> <img src={linkedinLogo} style={{ width: "25%" }} alt="logo"/></a>
-      <a href="https://github.com/gtankha" target="_blank"> <img src={githubLogo} style={{ width: "25%" }} alt="logo"/></a>
-      </div>
+      
 
   </section>
 
