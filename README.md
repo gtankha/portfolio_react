@@ -1,4 +1,4 @@
-# Budget Tracker 
+# Portfolio
 
 
   ## Table of Contents
@@ -53,9 +53,9 @@
   
   GitHub Username: gtankha
 
-  GitHub: https://github.com/gtankha/budget-tracker
+  GitHub: https://github.com/gtankha/portfolio_react
 
-  Heroku Link: https://warm-stream-90592.herokuapp.com/
+ Deployment Link: https://gtankha.github.io/portfolio_react/
 
 In case of any questions, please reach out to the following contact email: gtankha@gmail.com
 
