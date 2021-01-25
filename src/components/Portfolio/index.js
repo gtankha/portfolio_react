@@ -6,6 +6,8 @@ import photo3 from "../../assets/img/flights-animation.gif";
 import photo4 from "../../assets/img/Run_Website_Website.png";
 import photo5 from "../../assets/img/Pizza_Hunt.png";
 import photo6 from "../../assets/img/employerapp.png";
+import photo7 from "../../assets/img/media-store.png"
+
 import githubLogo from "../../assets/img/git-hub_logo.png";
 
 const currentWebsite = [{
@@ -55,6 +57,14 @@ const currentWebsite = [{
     url:
         "https://stark-atoll-20406.herokuapp.com/",
         photo: photo6
+},
+{
+    name: "Media Store",
+    github:
+        "https://github.com/gtankha/media-store",
+    url:
+        "https://floating-badlands-78581.herokuapp.com/",
+        photo: photo7
 }];
 
 function Portfolio() {
