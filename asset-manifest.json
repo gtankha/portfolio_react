@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.e1f853c6.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.62d10523.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.62d10523.chunk.js.map",
+    "main.js": "/portfolio_react/static/js/main.07471100.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.07471100.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.e3c83d10.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.e3c83d10.js.map",
     "static/css/2.3f65f8a6.chunk.css": "/portfolio_react/static/css/2.3f65f8a6.chunk.css",
@@ -23,13 +23,14 @@
     "static/media/all.min.css": "/portfolio_react/static/media/fa-solid-900.46fdbd2d.woff",
     "static/media/flights-animation.9f08bb51.gif": "/portfolio_react/static/media/flights-animation.9f08bb51.gif",
     "static/media/index.css": "/portfolio_react/static/media/grey-abstract-texture-background-paper_1284-49799.425ef218.jpg",
-    "static/media/gtimage.81e7818f.jpg": "/portfolio_react/static/media/gtimage.81e7818f.jpg"
+    "static/media/gtimage.81e7818f.jpg": "/portfolio_react/static/media/gtimage.81e7818f.jpg",
+    "static/media/media-store.2f2de36f.png": "/portfolio_react/static/media/media-store.2f2de36f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e3c83d10.js",
     "static/css/2.3f65f8a6.chunk.css",
     "static/js/2.ba8bb01b.chunk.js",
     "static/css/main.e1f853c6.chunk.css",
-    "static/js/main.62d10523.chunk.js"
+    "static/js/main.07471100.chunk.js"
   ]
 }
